@@ -1,0 +1,15 @@
+{
+  "name": "stepper-encoder",
+  "author": "Carlos Vicente Ariño Latorre",
+  "pins": [
+    "A+",
+    "A-",
+    "B+",
+    "B-",
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "controls": []
+}

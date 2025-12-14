@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "author": "Carlos Vicente Ariño Latorre",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": -48,
+      "left": -62.36,
+      "attrs": {}
+    },
+    {
+      "type": "chip-stepper-encoder",
+      "id": "chip2",
+      "top": 394.62,
+      "left": 216,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-stepper-motor",
+      "id": "stepper1",
+      "top": 214.81,
+      "left": 10.03,
+      "attrs": {
+        "size": "17"
+      }
+    },
+    {
+      "type": "board-ds18b20",
+      "id": "temp1",
+      "top": -135.53,
+      "left": 52.08,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": -72.55,
+      "left": 104.2,
+      "attrs": {
+        "value": "4700"
+      }
+    }
+  ],
+  "connections": [
+    [
+      "esp:TX",
+      "$serialMonitor:RX",
+      "",
+      []
+    ],
+    [
+      "esp:RX",
+      "$serialMonitor:TX",
+      "",
+      []
+    ],
+    [
+      "esp:25",
+      "stepper1:B-",
+      "#8f4814",
+      [
+        "h-67.05",
+        "v384",
+        "h230.41"
+      ]
+    ],
+    [
+      "esp:26",
+      "stepper1:B+",
+      "red",
+      [
+        "h-47.85",
+        "v364.8",
+        "h201.6"
+      ]
+    ],
+    [
+      "esp:27",
+      "stepper1:A+",
+      "blue",
+      [
+        "h-28.65",
+        "v336",
+        "h172.8"
+      ]
+    ],
+    [
+      "esp:14",
+      "stepper1:A-",
+      "green",
+      [
+        "h-19.05",
+        "v316.8",
+        "h153.6"
+      ]
+    ],
+    [
+      "esp:25",
+      "chip2:B-",
+      "#8f4814",
+      [
+        "v0",
+        "h-67.05",
+        "v384",
+        "h278.4",
+        "v-28.8"
+      ]
+    ],
+    [
+      "esp:26",
+      "chip2:B+",
+      "red",
+      [
+        "h-47.85",
+        "v364.8",
+        "h249.6",
+        "v-28.8"
+      ]
+    ],
+    [
+      "chip2:D",
+      "esp:15",
+      "green",
+      [
+        "h40.21",
+        "v-297.6"
+      ]
+    ],
+    [
+      "chip2:C",
+      "esp:16",
+      "green",
+      [
+        "h59.41",
+        "v-326.4",
+        "h-9.6"
+      ]
+    ],
+    [
+      "chip2:B",
+      "esp:22",
+      "green",
+      [
+        "h78.61",
+        "v-268.8",
+        "h0",
+        "v-163.2"
+      ]
+    ],
+    [
+      "chip2:A",
+      "esp:23",
+      "green",
+      [
+        "v9.6",
+        "h97.81",
+        "v-451.2"
+      ]
+    ],
+    [
+      "esp:14",
+      "chip2:A-",
+      "green",
+      [
+        "h-19.05",
+        "v316.8",
+        "h220.8",
+        "v9.6"
+      ]
+    ],
+    [
+      "esp:27",
+      "chip2:A+",
+      "blue",
+      [
+        "h-28.65",
+        "v336",
+        "h220.8",
+        "v-9.6",
+        "h28.8"
+      ]
+    ],
+    [
+      "temp1:GND",
+      "esp:GND.2",
+      "black",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "temp1:VCC",
+      "esp:3V3",
+      "red",
+      [
+        "v19.2",
+        "h-144"
+      ]
+    ],
+    [
+      "temp1:VCC",
+      "r1:1",
+      "red",
+      [
+        "v19.2",
+        "h28.8"
+      ]
+    ],
+    [
+      "r1:2",
+      "esp:4",
+      "green",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "temp1:DQ",
+      "r1:2",
+      "green",
+      [
+        "v38.4",
+        "h96"
+      ]
+    ]
+  ],
+  "dependencies": {}
+}

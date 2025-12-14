@@ -1,0 +1,21 @@
+[wokwi]
+version = 1
+firmware = ".pio/build/esp32dev/firmware.bin"
+elf = ".pio/build/esp32dev/firmware.elf"
+
+[[chip]]
+name = 'stepper-poten'  # To use the chip in diagram.json, add a part with "chip-inverter" type.
+binary = 'chips/stepper-poten.chip.wasm'
+
+[[chip]]
+name = 'motor-encoder'
+binary = 'chips/motor-encoder.chip.wasm'
+
+[[chip]]
+name = 'motor-poten'
+binary = 'chips/motor-poten.chip.wasm'
+
+[[chip]]
+name = 'stepper-encoder'
+binary = 'chips/stepper-encoder.chip.wasm'
+

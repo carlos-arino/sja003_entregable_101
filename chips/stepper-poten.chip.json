@@ -1,0 +1,14 @@
+{
+  "name": "stepper-poten",
+  "author": "Carlos Vicente Ariño Latorre",
+  "pins": [
+    "A+",
+    "A-",
+    "B+",
+    "B-",
+    "Vs",
+    "",
+    ""
+  ],
+  "controls": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "motor-poten",
+  "author": "Carlos Vicente Ariño Latorre",
+  "pins": [
+    "V+",
+    "V-",
+    "",
+    "Vs",
+    "Enc_A",
+    "Enc_B"
+  ],
+  "controls": [
+    {
+      "id": "torque",
+      "label": "Mechanical Torque",
+      "type": "range",
+      "min": 0,
+      "max": 0.1,
+      "step": 0.01
+    }
+  ]
+}
