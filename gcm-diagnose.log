@@ -1,0 +1,187 @@
+﻿Diagnose log at 2025-12-14T22:25:42Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.5.1+90d5f897f164a8fe07d2aa3bf7db439b0b4e03ea
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+PROCESSOR_ARCHITEW6432=AMD64
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=PC-MEDION-3060T
+GIT_TRACE2_PARENT_SID=8e1107e8-9dbc-4744-8e97-531f8be01882
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\c_v_a\OneDrive - Universitat Jaume I
+PYTHON_BASIC_REPL=1
+HOMEPATH=\Users\c_v_a
+SESSIONNAME=Console
+CLASSPATH=C:\Program Files\Mosek\11.0\tools\platform\win64x86\bin\mosek.jar
+HOME=C:\Users\c_v_a
+PROCESSOR_REVISION=a503
+USERDOMAIN=PC-MEDION-3060T
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+VSCODE_INJECTION=1
+GIT_ASKPASS=c:\Users\c_v_a\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\c_v_a\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\c_v_a\AppData\Local
+MSYSTEM=MINGW64
+EFC_9696_2283032206=1
+TERM=xterm-256color
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 165 Stepping 3, GenuineIntel
+TWINCAT3DIR=C:\Program Files (x86)\Beckhoff\TwinCAT\3.1\
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+ProgramW6432=C:\Program Files
+PYTHONSTARTUP=c:\Users\c_v_a\AppData\Roaming\Code\User\workspaceStorage\6f02e5bf9548c06dc3d824d2c8e7ee28\ms-python.python\pythonrc.py
+MOSEK_11_0_BINDIR=C:\Program Files\Mosek\11.0\tools\platform\win64x86\bin
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\c_v_a\bin;c:\Users\c_v_a\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\c_v_a\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files (x86)\Beckhoff\TwinCAT\Common64\;C:\Program Files (x86)\Beckhoff\TwinCAT\Common32\;C:\Program Files\Eclipse Adoptium\jdk-17.0.4.101-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Calibre2\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\MATLAB\R2024a\runtime\win64;C:\Program Files\MATLAB\R2024a\bin;C:\Program Files\Tailscale\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\Beckhoff\TcPkg\;C:\ProgramData\Beckhoff\TcMigrateCli\;C:\Program Files\Mosek\11.0\tools\platform\win64x86\bin;C:\Users\c_v_a\AppData\Local\Microsoft\WindowsApps;C:\texlive\2022\bin\win32;'C:\Users\c_v_a\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts;C:\Users\c_v_a\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Users\c_v_a\AppData\Roaming\npm;C:\Users\c_v_a\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages;C:\Users\c_v_a\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts;C:\Users\c_v_a\AppData\Local\GitHubDesktop\bin;C:\Users\c_v_a\AppData\Local\Microsoft\WindowsApps;;C:\Users\c_v_a\AppData\Local\Programs\Ollama
+TERM_PROGRAM=vscode
+PROCESSOR_LEVEL=6
+NUMBER_OF_PROCESSORS=12
+TMPDIR=C:\Users\c_v_a\AppData\Local\Temp
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+TERM_PROGRAM_VERSION=1.107.0
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\c_v_a\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+ProgramFiles(x86)=C:\Program Files (x86)
+PUBLIC=C:\Users\Public
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-11f6e7ced4-sock
+FPS_BROWSER_USER_PROFILE_STRING=Default
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+TMP=C:\Users\c_v_a\AppData\Local\Temp
+COLORTERM=truecolor
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_26052_XVBELWCVQFOLNHRY
+ProgramFiles=C:\Program Files (x86)
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+MSYS=disable_pcon
+GIT_PAGER=cat
+EFC_9696_3789132940=1
+MOSEK_11_0_EXE=C:\Program Files\Mosek\11.0\tools\platform\win64x86\bin\mosek.exe
+VSCODE_GIT_ASKPASS_NODE=C:\Users\c_v_a\AppData\Local\Programs\Microsoft VS Code\Code.exe
+TcPkgInstall=C:\ProgramData\Beckhoff\TcPkg\
+EFC_9696_1592913036=1
+SystemRoot=C:\WINDOWS
+MOSEK_11_0_INSTALLDIR=C:\Program Files\Mosek\11.0
+EFC_9696_2775293581=1
+TWINCATSDK=C:\Program Files (x86)\Beckhoff\TwinCAT\3.1\SDK\
+CommonProgramW6432=C:\Program Files\Common Files
+LOGONSERVER=\\PC-MEDION-3060T
+USERPROFILE=C:\Users\c_v_a
+MOSQUITTO_DIR=C:\Program Files\mosquitto
+USERDOMAIN_ROAMINGPROFILE=PC-MEDION-3060T
+APPDATA=C:\Users\c_v_a\AppData\Roaming
+HOMEDRIVE=C:
+OneDriveCommercial=C:\Users\c_v_a\OneDrive - Universitat Jaume I
+PSModulePath=C:\Users\c_v_a\OneDrive\Documentos\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+EFC_9696_1262719628=1
+VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+USERNAME=c_v_a
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+SystemDrive=C:
+windir=C:\WINDOWS
+LANG=es_ES.UTF-8
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\c_v_a\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\c_v_a\AppData\Local\Temp\b3644fd6a8f2bc1ebd968308'... OK
+Reading from temporary file 'C:\Users\c_v_a\AppData\Local\Temp\b3644fd6a8f2bc1ebd968308'... OK
+Deleting temporary file 'C:\Users\c_v_a\AppData\Local\Temp\b3644fd6a8f2bc1ebd968308'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\c_v_a
+UserDataDirectoryPath: C:\Users\c_v_a\.gcm
+GetCurrentDirectory(): C:\github\sja003_entregable_101
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:53022/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.46.1.windows.1'
+Locating current repository...Git repository at 'C:/github/sja003_entregable_101/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/c_v_a/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/c_v_a/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/c_v_a/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/c_v_a/.gitconfig	filter.lfs.required=true
+file:C:/Users/c_v_a/.gitconfig	user.name=carlos-arino
+file:C:/Users/c_v_a/.gitconfig	user.email=arino@uji.es
+file:C:/Users/c_v_a/.gitconfig	credential.credentialstore=dpapi
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/carlos-arino/sja003_entregable_101.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+file:.git/config	branch.main.vscode-merge-base=origin/main
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
